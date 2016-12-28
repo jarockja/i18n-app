@@ -4,6 +4,13 @@
     "example": {
       "text": "This is an example text!",
       "date": "current date: {{ value2 }}"
+    },
+    "language": {
+      "select": "Select language",
+      "name": {
+        "de": "German",
+        "en": "English"
+      }
     }
   }
 }

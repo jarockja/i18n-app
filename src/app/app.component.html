@@ -2,4 +2,11 @@
   {{ 'home.title' | translate:appName}}
   <p>{{ 'home.example.text' | translate }}</p>
   <p>{{ 'home.example.date' | translate:date }}</p>
+  <p>
+    {{ 'home.language.select' | translate }}
+    <select [ngModel]="selectedLanguage" (ngModelChange)="changeLanguage($event)" name="selectLanguages">
+      <option [ngValue]="language" *ngFor="let language of languages">{{ 'home.language.name.' + language.name | translate }}</option>
+    </select>
+
+  </p>
 </h1>
