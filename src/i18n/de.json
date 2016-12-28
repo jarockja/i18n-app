@@ -1,0 +1,10 @@
+{
+  "home": {
+    "title": "Applikation mit dem Namen {{ value }} funktioniert!",
+    "example": {
+      "text": "Das ist ein Beispiel-Text!",
+      "date": "Aktuelles Datum: {{ value2 }}"
+    }
+  }
+}
+
